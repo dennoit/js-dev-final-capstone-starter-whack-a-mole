@@ -1,6 +1,6 @@
 html {
   /*background: url('./assets/background.png') no-repeat center center fixed;*/
-  background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed;
+  background: url('https://i.pinimg.com/originals/e0/66/08/e06608a8f7c5fa2cf7017e9aa0168598.jpg') no-repeat center center fixed;
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,14 +14,14 @@ h1 {
   text-align: center;
   font-size: 90px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: white;
+  color: green;
   -webkit-text-stroke: 2px black;
 }
 
 h2 {
   text-align: center;
   font-size: 40px;
-  color: white;
+  color: green;
   -webkit-text-stroke: 1px black;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 #timer{
-    color: white;
+    color: green;
 }
 
 .grid {
@@ -52,7 +52,7 @@ h2 {
 .hole:after {
   display: block;
   /*background: url("./assets/hole.png") bottom center no-repeat;*/
-  background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat;
+  background: url("https://masienda.com/cdn/shop/files/cookware-molcajete-chico-01_785fd083-ac9c-46f9-b85e-3eae79ab50ec_300x.png?v=1713285013") bottom center no-repeat;
   background-size:contain;
   content:'';
   width: 100%;
@@ -65,8 +65,8 @@ h2 {
 
 .mole {
   /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat;
-  background-size: 40%;
+  background:url('https://images.creativefabrica.com/products/previews/2024/05/20/tQpxQl6w9/2giYvJZK1cfo7S395i1SlUP0IkW-mobile.jpg') bottom center no-repeat;
+  background-size: 55%;
   position: absolute;
   top: 100%;
   width: 100%;
@@ -78,5 +78,5 @@ h2 {
 
 .hole.show .mole {
   top: 0;
-  /*transform: scale(1.1);*/
+  transform: scale(1.1);
 }
